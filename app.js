@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.end();
 });
 
-// Port Number
+// Port Number with process.env
 const PORT = process.env.PORT || 8080;
 
 // Server setup
